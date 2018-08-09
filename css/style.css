@@ -1,0 +1,17 @@
+.logo img{
+    float: right;
+    width: 25%;
+}
+
+.border{
+    border-bottom: 5px solid red;
+    padding: 52px 0px 0px 0px;
+}
+.name h1,h5{
+    position: relative;
+  top: 18px;
+  left: 10px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  
+}
