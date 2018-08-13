@@ -1,0 +1,19 @@
+{
+  "name": "myfirstproject",
+  "version": "1.0.0",
+  "description": "Subha's portfolio for udacity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhaduraisamy/myfirstproject.git"
+  },
+  "author": "Subha Duraisamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhaduraisamy/myfirstproject/issues"
+  },
+  "homepage": "https://github.com/subhaduraisamy/myfirstproject#readme"
+}
