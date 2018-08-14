@@ -13,3 +13,5 @@ My portofolio is [SubhaDuraisamy](https://subhaduraisamy.github.io/myfirstprojec
 -Used 4 images
 -Used `<p>` tags,`<header>`,`<footer>`
 -Used `Bootstrap`
+
+### Verified CSS and HTML validators and it shows no errors.
