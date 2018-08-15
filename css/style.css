@@ -1,235 +1,237 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  body  {
-    background-color: #fff;
-    font-family: "Roboto", sans-serif;
-    color: #4f4f4f;
-  }
-  
-  h1,
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #4f4f4f;
+}
+
+h1,
   h2,
   h3,
   h4 {
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
-    color: #4f4f4f;
-  }
-  
-  h1 {
-      color: #7c777c;
-      font-size: 50px;
-      margin-bottom: 5px;
-  }
-  
-  a:hover, a:visited, a:link, a:active {
-    color: #4f4f4f;
-    text-decoration: none;
-  }
-  
-  p {
-    text-align: center;
-    padding: 5px;
-  }
-  
-  .container {
-   
-    max-width: 1300px;
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  
-  .row {
-   
-    margin-right: 0px !important;
-    margin-left: 0px !important;
-  }
-  
-  .col-1 {
-      width: 8.33%;
-  }
-  
-  .col-2 {
-      width: 16.66%;
-  }
-  
-  .col-3 {
-      width: 25%;
-  }
-  
-  .col-4 {
-      width: 33.33%;
-  }
-  
-  .col-5 {
-      width: 41.66%;
-  }
-  
-  .col-6 {
-      width: 50%;
-  }
-  .col-6.logo img {
-    width: 12%;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #4f4f4f;
 }
-  .col-7 {
-      width: 58.33%;
-  }
-  
-  .col-8 {
-      width: 66.66%;
-  }
-  
-  .col-9 {
-      width: 75%;
-  }
-  
-  .col-10 {
-      width: 83.33%;
-  }
-  
-  .col-11 {
-      width: 91.66%;
-  }
-  
-  .col-12 {
-      width: 100%;
-  }
-  
-  
-  .logo {
-    padding-left: 50px;
-    padding-top: 20px;
-  }
-  
-  .main-title {
-    display: block;
-    margin: -72px 0px 0px 0px;
-    width: 100%;
-    text-align: right;
-    text-transform: uppercase;
-    padding-right: 30px;
-    padding-bottom: 15px;
-  }
+
+h1 {
+  color: #7c777c;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+a:hover, a:visited, a:link, a:active {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  padding: 5px;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-6.logo img {
+  width: 12%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.logo {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.main-title {
+  display: block;
+  margin: -72px 0em;
+  width: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
   
   /* bootstrap navbar */
-  .navbar-default {
-    background-color: #f1f1f1;
-    border: transparent;
-    margin-bottom: 0;
-  }
-  
-  .nav-item {
-    text-transform: uppercase;
-  }
-  
-  .hero-img {
-    height: auto;
-    margin: 0;
-  }
-  
-  .portfolio::after {
-    content: "";
-    clear: both;
-    display: table;
-    width:100%;
-    justify-content: space-between;
-    text-align: center;
-    padding-bottom: 40px;
-  }
-  
-  .portfolio-title {
-    font-size: 2.5em;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 5px;
-  }
-  
-  .project {
-    margin: 10px;
-    float: left;
+.navbar-default {
+  background-color: #f1f1f1;
+  border: transparent;
+  margin-bottom: 0;
+  margin-top: 64px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.hero-img {
+  height: auto;
+  margin: 0;
+}
+
+.portfolio::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.portfolio-title {
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.project {
+  margin: 10px;
+  float: left;
   width: 31.33%;
   padding: 5px;
   text-align: center;
+}
+
+.project-img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #f1f1f1;
+  margin-bottom: 0;
+}
+
+footer ul {
+  text-align: center;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 30px;
+}
+
+@media screen and (max-width: 1028px) {
+  .project {
+    width: 30.33%;
   }
-  
+}
+
+  /*Media Queries*/
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+    padding-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  .main-title {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-default {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 2em;
+  }
+
+  p,
+    a {
+    font-size: 1.75rem;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .project {
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
   .project-img {
     max-width: 100%;
   }
-  
-  footer {
-    background-color: #f1f1f1;
-    margin-bottom: 0;
-  }
-  
-  footer ul {
-      text-align: center;
-      padding: 0;
-  }
-  
-  footer ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
-  }
-  @media screen and (max-width: 1028px) {
-    .project {
-    width: 30.33%;
-    }
-  }
 
-  /*Media Queries*/
-  @media screen and (max-width: 550px) {
-    .logo {
-      width: 100%;
-      text-align: center;
-      padding-left: 8px;
-      margin-top: 10px;
-      margin-bottom: 0;
-    }
-  
-    h4 {
-      font-size: 1.5em
-    }
-  
-    .main-title {
-      width: 100%;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-    }
+  footer ul li {
+    margin: 15px;
   }
-  
-  @media screen and (max-width: 768px) {
-    h3 {
-      font-size: 2em;
-    }
-  
-    p,
-    a {
-      font-size: 1.75rem;
-    }
-  
-    .col-6 {
-      width: 100%;
-    }
-  
-    .project {
-      max-width: 100%;
-      margin: 0;
-      padding-bottom: 20px;
-    }
-  
-    .project-img {
-      max-width: 100%;
-    }
-  
-    footer ul li {
-      margin: 15px;
-    }
-  }
+}
   
